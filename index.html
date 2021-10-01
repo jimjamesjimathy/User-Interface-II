@@ -4,49 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+        <!-- Link to Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Slabo+27px&display=swap" rel="stylesheet">
+        <!-- Link to CSS -->
+    <link rel="stylesheet" href="style/index.css">
+
+    <!-- Link to FA -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
-    <header>
+    <header id="home">
         <nav>
+            <div class="logo">
+                <p>JK</p>
+            </div>
+            <div class="navbar">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
+            </div>
         </nav>
-        <div id="about">
+    </header>
+        <section id="about">
+            <div class="hero-text">
             <h1>James Alan Mikal Kirkwood</h1>
             <p>Web Developer // Musician // Filmmaker</p>
-            <button><a href="#projects">Check out some of my projects</a></button>
-        </div>
-    </header>
+            <button><a href="#projects" class="pText">Check out some of my projects</a></button>
+            </div>
+        </section>
     <section id="projects">
         <div class="content box1">
-            <p>Project 1</p>
         </div>
+        <div class="project-info">
+            <p>Beautiful Forest.</p>
+        </div>
+
         <div class="content box2">
-            <p>Project 2</p>
         </div>
+        <div class="project-info">
+            <p>Lake Reflection.</p>
+        </div>
+
         <div class="content box3">
-            <p>Project 3</p>
         </div>
+        <div class="project-info">
+            <p>Sun Through The Trees.</p>
+        </div>
+
         <div class="content box4">
-            <p>Project 4</p>
         </div>
+        <div class="project-info">
+            <p>Crooked Tree.</p>
+        </div>
+
         <div class="content box5">
-            <p>Project 5</p>
         </div>
+        <div class="project-info">
+            <p>Road to Nowhere.</p>
+        </div>
+
         <div class="content box6">
-            <p>Project 6</p>
         </div>
+        <div class="project-info">
+            <p>Ready to Burn.</p>
+        </div>
+
+
     </section>
     <footer>
         <div class="social">
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-            <i class="fa fa-linkedin" aria-hidden="true"></i>
-            <i class="fa fa-soundcloud" aria-hidden="true"></i>
+            <a href="https://www.instagram.com/jim.james.jimathy/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a>
+            <a href="https://www.linkedin.com/in/james-kirkwood-00b51a215/"><i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
+            <a href="https://soundcloud.com/skippy-11"><i class="fa fa-soundcloud" aria-hidden="true"></i>SoundCloud</a>
         </div>
         <div id="contact">
-            <button><a href="#contact"></a></button>
+            <button><a href="#contact">Get a hold of me!</a></button>
         </div>
         <p>Copyright James Kirkwood 2021</p>
     </footer>
