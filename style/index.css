@@ -227,7 +227,16 @@ footer a {
 
 
 /* Media Queries! */
-
+@media(max-width: 800px) {
+    #about button {
+        padding: 3% 15%;
+        font-size: 1.75rem;
+        font-weight: bold;
+    }
+    .navbar {
+        width: 80%;
+    }
+}
 @media(max-width: 500px) {
     nav {
         position: relative;
@@ -274,6 +283,10 @@ footer a {
         font-size: 1.3rem;
         font-weight: bold;
     }
+    #about button a {
+        color: #fff;
+        letter-spacing: 0.35em;
+    }
     #projects {
         flex-flow: column wrap;
         justify-content: space-evenly;
@@ -288,5 +301,24 @@ footer a {
         padding: 0;
         margin: 0;
         font-size: 1rem;
+    }
+    footer {
+        flex-direction: column;
+        font-size: 1rem;
+    }
+    .social {
+        display: none;
+    }
+    #contact {
+        width: 100%;
+        margin: 7% 0;
+    }
+    footer p {
+        width: 100%;
+        font-size: 1rem;
+    }
+    #contact button, #about button {
+        border-radius: 0px;
+        border: 2px solid black;
     }
 }
